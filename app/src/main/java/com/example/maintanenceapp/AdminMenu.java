@@ -25,7 +25,7 @@ public class AdminMenu extends AppCompatActivity {
         madminlogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    startActivity(new Intent(AdminMenu.this,Login.class));
+                    startActivity(new Intent(AdminMenu.this, cLogin.class));
                     finish();
             }
         });

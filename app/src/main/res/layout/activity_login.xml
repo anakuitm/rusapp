@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loginbackground"
-    tools:context=".Login">
+    android:background="@drawable/screen"
+    tools:context=".cLogin">
 
     <TextView
         android:id="@+id/forgetpassword"
@@ -59,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="@string/icarserve"
+        android:text="RuSA"
         android:textColor="#F1EEEE"
         android:textSize="40sp"
         android:textStyle="bold"

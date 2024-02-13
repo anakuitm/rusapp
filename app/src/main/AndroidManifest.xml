@@ -32,7 +32,7 @@
         <activity android:name=".UpdateUserActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Register" />
-        <activity android:name=".Login">
+        <activity android:name=".cLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

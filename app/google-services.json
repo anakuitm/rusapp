@@ -1,36 +1,84 @@
 {
   "project_info": {
-    "project_number": "427957488657",
-    "project_id": "maintanenceapp",
-    "storage_bucket": "maintanenceapp.appspot.com"
+    "project_number": "661039685919",
+    "firebase_url": "https://runnerserviceapp-default-rtdb.firebaseio.com",
+    "project_id": "runnerserviceapp",
+    "storage_bucket": "runnerserviceapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:427957488657:android:d415ca05334462cf7ab5b0",
+        "mobilesdk_app_id": "1:661039685919:android:d4957eb2b2fb0d4c59102a",
         "android_client_info": {
           "package_name": "com.example.maintanenceapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "427957488657-j9n696kua7tqt85ppad1195jrr1eq00m.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB7KzfHiJ8PylXeDT64m8KB5IwCpbKn7Ic"
+          "current_key": "AIzaSyCUpYA0wzmHMaME1kZn9XgJ0ZCa6LZFuNA"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "427957488657-j9n696kua7tqt85ppad1195jrr1eq00m.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661039685919:android:cbb422e4c9e8b22259102a",
+        "android_client_info": {
+          "package_name": "com.example.rs_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUpYA0wzmHMaME1kZn9XgJ0ZCa6LZFuNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661039685919:android:f62ed53e4a795d9f59102a",
+        "android_client_info": {
+          "package_name": "com.example.runservapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUpYA0wzmHMaME1kZn9XgJ0ZCa6LZFuNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661039685919:android:030cc7f375ac6dee59102a",
+        "android_client_info": {
+          "package_name": "com.example.rusa4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUpYA0wzmHMaME1kZn9XgJ0ZCa6LZFuNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }

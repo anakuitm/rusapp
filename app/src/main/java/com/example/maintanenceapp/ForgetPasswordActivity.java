@@ -34,7 +34,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ForgetPasswordActivity.this,Login.class));
+                startActivity(new Intent(ForgetPasswordActivity.this, cLogin.class));
             }
         });
 

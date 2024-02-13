@@ -267,7 +267,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if(id == R.id.Logout){
             fAuth.signOut();
-            startActivity(new Intent(MainActivity.this,Login.class));
+            startActivity(new Intent(MainActivity.this, cLogin.class));
             finish();
         }
         return true;

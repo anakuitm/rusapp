@@ -49,7 +49,7 @@ public class Register extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Register.this,Login.class));
+                startActivity(new Intent(Register.this, cLogin.class));
             }
         });
 
@@ -110,7 +110,7 @@ public class Register extends AppCompatActivity {
         mLoginHere.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Login.class));
+                startActivity(new Intent(getApplicationContext(), cLogin.class));
             }
         });
     }
@@ -140,7 +140,7 @@ public class Register extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
                             progressBar.setVisibility(View.GONE);
                             if (task.isSuccessful()){
-                                Intent intent = new Intent(Register.this,Login.class);
+                                Intent intent = new Intent(Register.this, cLogin.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK| Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);
                             }else{

@@ -19,7 +19,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 
-public class Login extends AppCompatActivity {
+public class cLogin extends AppCompatActivity {
     EditText mEmail, mPassword;
     Button mLoginBtn;
     TextView mRegisterHere, mforgetpassword, madmin;
@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
         mforgetpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Login.this,ForgetPasswordActivity.class));
+                startActivity(new Intent(cLogin.this,ForgetPasswordActivity.class));
             }
         });
        /* madmin.setOnClickListener(new View.OnClickListener() {
@@ -100,14 +100,14 @@ public class Login extends AppCompatActivity {
                             finish();
                         }else{
 
-                        Intent intent = new Intent(Login.this, MainActivity.class);
+                        Intent intent = new Intent(cLogin.this, MainActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
-                        Toast.makeText(Login.this, "Login successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(cLogin.this, "Login successfully", Toast.LENGTH_SHORT).show();
                         finish();}
 
                     }else{
-                    Toast.makeText(Login.this, "Password and Email is not entered correctly" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(cLogin.this, "Password and Email is not entered correctly" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 }
             });
